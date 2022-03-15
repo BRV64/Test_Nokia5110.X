@@ -6,7 +6,7 @@
  * FileName:        PCD8544.h
  * Processor:       PICxxxxxx
  * Complier:        XC8 v1.30
- * Author:          Pedro Sánchez (MrChunckuee)
+ * Author:          Pedro Sï¿½nchez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Libreria creado para una LCD Nokia 5110, la pantalla requiere
@@ -16,7 +16,7 @@
  ******************************************************************************/
 #ifndef PCD8544_H
 #define	PCD8544_H
-
+//Library Update
 /**********P O R T * L C D * C O N F I G***************************************/
 #define TRIS_pinRST     TRISB0
 #define pinRST          PORTBbits.RB0 //Reset
