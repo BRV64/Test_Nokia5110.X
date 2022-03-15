@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="dist/default/production\Test_Nokia5110.X.production.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>28672</length>
+      <used>2626</used>
+      <free>26046</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>2048</length>
+      <used>30</used>
+      <free>2018</free>
+    </memory>
+  </executable>
+</project>
