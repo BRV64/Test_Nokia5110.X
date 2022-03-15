@@ -6,7 +6,7 @@
  * FileName:        PCD8544.c
  * Processor:       PICxxxxxx
  * Complier:        XC8 v1.30
- * Author:          Pedro Sánchez (MrChunckuee)
+ * Author:          Pedro Sï¿½nchez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Libreria creado para una LCD Nokia 5110, la pantalla requiere
@@ -15,13 +15,13 @@
  *                  del uC.
  *******************************************************************************
  * Rev.         Date            Comment
- *   v1.00      20/02/2016      Creación del firmware
+ *   v1.00      20/02/2016      Creaciï¿½n del firmware
  ******************************************************************************/
 #include <xc.h>
 #include "PCD8544.h"
 #include "font_pattern.h"
 //#include <pic18f25k22.h> //Cambiar por el PIC a usar
-
+//This was also updated
 /*******************************************************************************
  * Function:        void EYRLCD_Init(void)
  * Description:     This function init the LCD, sends the magical commands to the PCD8544

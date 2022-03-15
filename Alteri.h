@@ -1,6 +1,6 @@
 /* 
  * File:   Alteri.h
- * Compañia: Dignal
+ * Compaï¿½ia: Dignal
  * Version: 2.0
  * Procesador: PIC18F4550 | Placa Alteri
  *
@@ -10,12 +10,12 @@
  *               HI-TECH PIC18
  * 
  * ************************* Actualizaciones *************************************
- * A partir de la versión 1.35, el compilador XC8 deja de dar soporte a la librería
- * de retardos "delays.h". En esta versión se crea una nueva rutina de retardo 
+ * A partir de la versiï¿½n 1.35, el compilador XC8 deja de dar soporte a la librerï¿½a
+ * de retardos "delays.h". En esta versiï¿½n se crea una nueva rutina de retardo 
  * para XC8 utilizando el mecanismo nativo de XC8.
  * *******************************************************************************
  */
-
+//Updated Main Library
 #ifndef ALTERI_H
 #define	ALTERI_H
 
@@ -121,7 +121,7 @@
  *****************************Mapeo de Vectores*************************************/
 
 /* Para los compiladores XC8 y HI-TECH PIC18 es necesario configurar manualmente
- la opción CODEOFFSET con el valor de 0x1000.
+ la opciï¿½n CODEOFFSET con el valor de 0x1000.
  * En MPLAB X: Ir a Properties->Linker->Aditional optiones->Code offset
  * En MPLAB v8xx: Ir a Project->Build Options->Project->Linker->Code offset
  */
@@ -137,7 +137,7 @@
 
 #elif defined(COMPILER_CCS)
         #build (reset=0x1000, interrupt=0x1008) /*Remapeo de vectores de Reset e Interrupciones*/
-        #org 0, 0xFFF {}   /*Reservar área de memoria ocupada por el Bootloader de Alteri*/
+        #org 0, 0xFFF {}   /*Reservar ï¿½rea de memoria ocupada por el Bootloader de Alteri*/
 #endif
 /******************************************************************************************************/
 /***************************** Funciones de retardos **************************************************/
