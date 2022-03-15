@@ -6,14 +6,14 @@
  * FileName:        main.c
  * Processor:       PIC18F25K22
  * Complier:        XC8 v1.30
- * Author:          Pedro Sánchez (MrChunckuee)
+ * Author:          Pedro Sï¿½nchez (MrChunckuee)
  * Blog:            http://mrchunckuee.blogspot.com/
  * Email:           mrchunckuee.psr@gmail.com
  * Description:     Probando libreria para LCD Nokia5110, para cambiar la
  *                  distribucion de pines modificar en PCD8544.h
  *******************************************************************************
  * Rev.         Date            Comment
- *   v1.00      20/02/2016      Creación del firmware
+ *   v1.00      20/02/2016      Creaciï¿½n del firmware
  ******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,6 +23,8 @@
 //#include "font_pattern.h"
 
 //#define _XTAL_FREQ 8000000
+
+//BRV64 Git Test
 
 const unsigned char EYR_ImageLogo[] = {
 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
