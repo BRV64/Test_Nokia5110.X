@@ -21,7 +21,7 @@
 #include "PCD8544.h"
 #include "font_pattern.h"
 //#include <pic18f25k22.h> //Cambiar por el PIC a usar
-//This was also updated
+
 /*******************************************************************************
  * Function:        void EYRLCD_Init(void)
  * Description:     This function init the LCD, sends the magical commands to the PCD8544
